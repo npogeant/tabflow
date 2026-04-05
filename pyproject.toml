@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tabflow"
+version = "0.1.0"
+description = "Programmatic Excel named range manager"
+authors = [{ name = "Nicolas Pogeant" }]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "openpyxl>=3.1.0",
+    "pandas>=2.0.0",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/npogeant/tabflow"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
