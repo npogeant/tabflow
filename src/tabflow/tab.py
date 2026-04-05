@@ -8,7 +8,7 @@ from openpyxl.utils import range_boundaries
 from openpyxl.utils.cell import get_column_letter
 
 
-class PageRange:
+class TabRange:
     """Read and update an Excel named range while preserving formatting"""
 
     def __init__(self, workbook, name: str):
@@ -235,4 +235,4 @@ class PageRange:
                 ws.cell(row=row, column=col).value = None
 
 
-__all__ = ["PageRange"]
+__all__ = ["TabRange"]

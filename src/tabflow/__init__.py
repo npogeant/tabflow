@@ -1,5 +1,5 @@
-from .page import PageRange
+from .tab import TabRange
 
-pagerange = PageRange
+tabrange = TabRange
 
-__all__ = ["PageRange", "pagerange"]
+__all__ = ["TabRange", "tabrange"]
