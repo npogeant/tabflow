@@ -3,7 +3,7 @@ from openpyxl import Workbook
 from openpyxl.workbook.defined_name import DefinedName
 from pandas.testing import assert_frame_equal
 
-from pageflow import PageRange
+from tabflow import PageRange
 
 
 def make_workbook():
