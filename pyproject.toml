@@ -4,14 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tabflow"
-version = "0.1.0"
+version = "0.1.1"
 description = "Programmatic Excel named range manager"
 authors = [{ name = "Nicolas Pogeant" }]
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
     "openpyxl>=3.1.0",
-    "pandas>=2.0.0",
+    "pandas>=1.1",
 ]
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
